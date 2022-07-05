@@ -1,0 +1,117 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: rgb(114, 167, 83);
+    font-size: 20px;
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    list-style: none;
+    right: 5px;
+    padding: 10px 20px ;
+}
+li{
+    padding-right: 20px;
+    background-color: white;
+}
+.link{
+    text-decoration: none;
+    cursor: grab;
+}
+#name{
+    font-size: 30px;
+    color: black;
+    margin-left: 0px;
+    border:solid;
+}
+#a{
+    background-color: aqua;
+    border: solid;
+}
+#Homes{
+    display:flex;
+    background-color: aqua;
+    height: 90px;
+    padding-top:30px;
+    text-align: center;
+    font-size: 30px;
+    margin-top: 60px;
+    margin: 10px 10px 0px 0px;
+    border-radius:80px ;
+}
+#profilepic{
+    height:400px;
+    width: 400px;
+    margin: 10px 10px 0px 0px;
+    border-radius:80px ;
+    margin-right: 10px;
+}
+#About{
+    display: flex;
+    align-items: center;
+}
+#Work{
+    background-color: steelblue;
+    color: maroon;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+hr{
+    width: 400px;
+}
+.project{
+    background-color: white;
+    color: black;
+    height: 100px;
+    width: 200px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+    border-radius: 10px;
+}
+#Work p hr{
+    margin-bottom: 10px;
+}
+#Work div{
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0px;
+    width: 100%;
+}
+li{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    list-style: none;
+    padding: 3px;
+}
+progress[value]{
+    height: 10px;
+    width: 350px;
+    -webkit-appearance: none;
+}
+#resume{
+    padding: 5px 0 5px 0;
+    font-size: 15px;
+    text-align: center;
+}
+#Contact form{
+    color: coral;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 3px 0px 3px;
+}
+.input{
+    line-height: 12px;
+    width: 250px;
+    border-color: darkgoldenrod;
+    border-radius: 1px;
+    margin: 10px 0px;
+}
